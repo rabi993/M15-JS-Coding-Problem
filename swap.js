@@ -16,13 +16,15 @@ console.log('after swap: a=', a, 'b= ', b );
 
 var x=7;
 var y=8;
-x=x+y;
+x=x+y;                //temp na niye
 y=x-y;
 x=x-y;
 console.log('after swap: x=', x, 'y= ', y );
 // dhfjgkhljki;olkojjdsafkl;kjdsadfkl;jdsafghj
 
 var p=5;
-var q=7;
+var q=7;                           //temp na niye
 [p,q] = [q,p];
 console.log('after swap: p=', p, 'q= ', q );
+// dhfjgkhljki;olkojjdsafkl;kjdsadfkl;jdsafghj
+
